@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3f0c0c;
 }
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
@@ -18,10 +19,11 @@ a { color:blue; text-decoration: none;}
     display: grid;
     gap: 3rem;
     grid-template-areas: "sidebar main anchors";
-    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    grid-template-columns: minmax(0,20rem) minmax(0,2.5fr) minmax(0,20rem);
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
@@ -33,6 +35,43 @@ a { color:blue; text-decoration: none;}
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
+
+.anchors ul li a,
+.sidebar ul li a{
+    padding: 5px;
+    text-decoration: none;
+    color: #3f0c0c;
+}
+
+.list-editor {
+    list-style: circle;
+}
+
 figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.banner {
+    width: 650px;
+}
+
+table {
+    margin: 20px -20px;
+}
+table tr td {
+    border: solid 2px #3f0c0c;
+    margin: 1px;
+}
+
+.img-herois {
+    height: 120px;
+}
+
+footer {
     text-align: center;
 }
