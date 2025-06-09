@@ -1,19 +1,31 @@
-# Módulo 3 - Trilha HTML
+# Recriando Wikipedia
 
-**Título:** Recriando Wikipedia, com um layout melhor :)
+**Título:** Recriando Wikipedia, com um layout melhor ✨
 
-## Objetivo
+## 🎯 Objetivo
 Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
 
-## Desafio
+## ⛰️ Desafio
 Neste repositório tem uma estrutura básica já pré-montada de um layout simples com um pouco de CSS aplicado. Apenas para deixar mais apresentável.
 
 Fiquem a vontade para criar da forma que desejarem, e sobre os temas que quiserem. O intuito aqui é divertir, e ao mesmo tempo aprender com o desafio.
 
-Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais fácil de entenderem como proceder.
+## 🚀 Resultado
+Este projeto é uma página temática sobre o universo da Marvel Comics, desenvolvida com um forte foco em boas práticas e acessibilidade.
 
-## Links úteis
+O que você encontrará na página:
+
+- Uma seção com a história da editora.
+- Um destaque para os principais editores que marcaram a Marvel.
+- Uma galeria de imagens com os heróis mais icônicos.
+
+O principal aprendizado deste desafio foi a aplicação de conceitos de acessibilidade, reforçando a importância de criar experiências digitais que sejam inclusivas para todos.
+
+## 🤖 Tecnologias Utilizadas
+
+- ![HTML Badge](https://img.shields.io/badge/-HTML-239120?style=flat&logo=html5&logoColor=white) (com foco em semântica)
+- ![CSS Badge](https://img.shields.io/badge/-CSS-1572B6?style=flat&logo=css3&logoColor=white) 
+
+## 🔗 Links úteis
 - [Download do NVDA](https://www.nvaccess.org/download/)
 - [Wikipedia](https://pt.wikipedia.org/)
-
-

@@ -65,7 +65,8 @@ table {
 }
 table tr td {
     border: solid 2px #3f0c0c;
-    margin: 1px;
+    border-radius: 10px;
+    margin: 2px;
 }
 
 .img-herois {
