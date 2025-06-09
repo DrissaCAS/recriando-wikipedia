@@ -21,6 +21,8 @@ O que você encontrará na página:
 
 O principal aprendizado deste desafio foi a aplicação de conceitos de acessibilidade, reforçando a importância de criar experiências digitais que sejam inclusivas para todos.
 
+Confira aqui o resultado: https://drissacas.github.io/recriando-wikipedia/
+
 ## 🤖 Tecnologias Utilizadas
 
 - ![HTML Badge](https://img.shields.io/badge/-HTML-239120?style=flat&logo=html5&logoColor=white) (com foco em semântica)
