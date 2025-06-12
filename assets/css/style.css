@@ -4,34 +4,64 @@ body, html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #3f0c0c;
 }
-ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
+
+ul { 
+    list-style: none; 
+    padding-left: 5px; 
+}
+
+a { 
+    color:blue; 
+    text-decoration: none;
+}
+
+figure {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+}
+
 .bar {
     background-color: #f9f9fb;
-    padding:15px;
+    padding: 15px;
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
 }
+
 .content {
-    max-width: 1440px;
+    max-width: 1800px;
     margin: auto;
-    grid-gap: 3rem;
+    padding: 15px;
+    margin: auto;
     display: grid;
-    gap: 3rem;
-    grid-template-areas: "sidebar main anchors";
-    grid-template-columns: minmax(0,20rem) minmax(0,2.5fr) minmax(0,20rem);
-    padding-left: 1rem;
-    padding-right: 1rem;
+    gap: 1rem;
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,20rem);
 }
 
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
 }
+
 .anchors {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
 }
+
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
@@ -45,34 +75,32 @@ a { color:blue; text-decoration: none;}
 
 .list-editor {
     list-style: circle;
-}
-
-figure {
-    text-align: center;
-}
-
-figcaption {
-    font-style: italic;
-    font-size: 12px;
+    padding-left: 50px;
 }
 
 .banner {
-    width: 650px;
+    width: 500px;
 }
 
-table {
-    margin: 20px -20px;
-}
-table tr td {
-    border: solid 2px #3f0c0c;
+.gallery-herois {
+    background-color: #f0e0d7;
+    border: 5 solid #000000;
     border-radius: 10px;
-    margin: 2px;
+    padding: 15px;
+    flex-basis: 150px;
+    max-height: 200px;
 }
 
-.img-herois {
-    height: 120px;
-}
-
-footer {
+.gallery-herois img {
+    max-width: 150px;
+    max-height: 150px;
+    align-items: center;
     text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
 }
