@@ -19,7 +19,7 @@ O que você encontrará na página:
 - Um destaque para os principais editores que marcaram a Marvel.
 - Uma galeria de imagens com os heróis mais icônicos. 
 
-O principal aprendizado deste desafio foi a aplicação de conceitos de semântica e acessibilidade, reforçando a importância de criar experiências digitais que sejam inclusivas para todos. Na galeria de hérois utilizei as tecnicas de flexbox para organizar as imagens e deixar a galeria responsiva.
+O principal aprendizado deste desafio foi a aplicação de conceitos de semântica e acessibilidade, reforçando a importância de criar experiências digitais que sejam inclusivas para todos. Na galeria de heróis utilizei as tecnicas de flexbox para organizar as imagens e deixar a galeria responsiva.
 
 Confira aqui o resultado: https://drissacas.github.io/recriando-wikipedia/
 
